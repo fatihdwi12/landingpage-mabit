@@ -23,6 +23,12 @@ export const metadata: Metadata = {
     default: `${siteConfig.name} | Travel Umrah Terpercaya`,
     template: `%s | ${siteConfig.name}`,
   },
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
+  manifest: "/site.webmanifest",
+
   description: siteConfig.description,
   keywords: siteConfig.keywords,
   alternates: {
